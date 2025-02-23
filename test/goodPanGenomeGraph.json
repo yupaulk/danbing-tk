@@ -1,8 +1,8 @@
 {
-    "srcDir" : "/$PREFIX/danbing-tk/",
-    "inputDir" : "/$PREFIX/danbing-tk/test/input/",
-    "outputDir" : "/$PREFIX/danbing-tk/test/output/",
-    "pairs" : "/$PREFIX/danbing-tk/test/input/genome.test.txt",
+    "srcDir" : "/storage/group/yzv101/default/projects/rotation_paul/2025-02-17-Danbing-test/danbing-tk/",
+    "inputDir" : "/storage/group/yzv101/default/projects/rotation_paul/2025-02-17-Danbing-test/danbing-tk/test/input/",
+    "outputDir" : "/storage/group/yzv101/default/projects/rotation_paul/2025-02-17-Danbing-test/danbing-tk/test/output/",
+    "pairs" : "/storage/group/yzv101/default/projects/rotation_paul/2025-02-17-Danbing-test/danbing-tk/test/input/genome.test.txt",
     "AsmAligner" : "minimap2",
     "ksize" : 21,
     "flankSize" : 500,
@@ -17,8 +17,8 @@
     "MBE_th1" : 0.31,
     "MBE_th2" : 0.31,
     "pruning" : false,
-    "ref" : "/$PREFIX/danbing-tk/test/input/hg38.chr12.2155791.2356090.fasta",
-    "refTR" : "/$PREFIX/danbing-tk/test/input/tr.bed",
+    "ref" : "/storage/group/yzv101/default/projects/rotation_paul/2025-02-17-Danbing-test/danbing-tk/test/input/hg38.chr12.2155791.2356090.fasta",
+    "refTR" : "/storage/group/yzv101/default/projects/rotation_paul/2025-02-17-Danbing-test/danbing-tk/test/input/tr.bed",
     "refctrl" : "",
     "clusterOpts" : "sbatch --time=48:00:00 --partition=qcb --account=mchaisso_100 -N 1"
 }
